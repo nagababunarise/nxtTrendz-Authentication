@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.logo-image {
+  height: 40px;
+  width: 130px;
+  margin: 10px;
+}
+.header-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item {
+  font-family: 'Roboto';
+  padding: 10px;
+  color: #64748b;
+  font-size: 18px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  height: 35px;
+  width: 80px;
+}
